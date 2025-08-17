@@ -9,9 +9,9 @@ func main() {
 	var num int
 
 	fmt.Print("Enter a number : ")
-	fmt.Scan((&num))
+	fmt.Scan(&num)
 
-	for i:=0; i<num; i++ {
+	for num != 0 {
 		count++
 		num /= 10
 	}
