@@ -4,7 +4,7 @@ This repository contains various Go (Golang) learning projects and examples, inc
 
 ## Prerequisites
 
-- Go 1.21 or later installed ([Download Go](https://golang.org/dl/))
+- Go 1.25 or later installed ([Download Go](https://golang.org/dl/))
 - (Optional) [Gorilla Mux](https://github.com/gorilla/mux) for REST API examples
 
 ## Project Structure
