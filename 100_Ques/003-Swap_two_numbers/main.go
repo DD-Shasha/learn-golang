@@ -174,4 +174,15 @@ func main(){
 	fmt.Println("After swapping: num1 =", num11, ", num2 =", num22)
 	fmt.Println("Swapping completed!")
 
+	fmt.Println("Swap two numbers using two input numbers !")
+	var num111, num222 int
+	fmt.Scan(&num111)
+	fmt.Scan(&num222)
+	fmt.Println("Before swapping: num1 =", num111, ", num2 =", num222)
+	num111 = num111 + num222
+	num222 = num111 - num222
+	num111 = num111 - num222
+	fmt.Println("After swapping: num1 =", num111, ", num2 =", num222)
+	fmt.Println("Swapping completed!")
+
 }
